@@ -24,12 +24,19 @@ can write. See **Notes**.
 
 ### The first sheet
 
-A plugin cannot place a desktop widget on its own, so Noctalia's editor places
-the first one: **Settings -> Desktop -> Widgets -> Toggle Editor**, add a
-**Noctes** widget, then **Done**.
+```sh
+noctalia msg plugin remo/noctes:service all desk
+```
 
-It appears square, grey and framed. A moment later the service notices a sheet
-with no note behind it and adopts it: a key of its own, a small angle, no frame.
+That puts a sheet on the focused output, tilted, coloured and bound to a note of
+its own. `tools/noctes-widget` is what writes it into `settings.toml`, since no
+plugin call creates a desktop widget.
+
+Noctalia's editor does it too, for anyone who would rather click: **Settings ->
+Desktop -> Widgets -> Toggle Editor**, add a **Noctes** widget, then **Done**. A
+widget added that way appears square, grey and framed. A moment later the service
+notices a sheet with no note behind it and adopts it: a key of its own, a small
+angle, no frame.
 
 ### Everything after that
 
