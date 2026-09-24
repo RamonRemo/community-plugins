@@ -6,6 +6,10 @@ top, in a colour drawn from your Noctalia palette - sitting above the wallpaper
 and below every window. Writing happens in a small panel that opens when you
 click a sheet.
 
+Noctes is developed at [RamonRemo/noctes](https://github.com/RamonRemo/noctes).
+Suggestions and bug reports are welcome in its
+[issues](https://github.com/RamonRemo/noctes/issues).
+
 ## Plugin
 
 | Field | Value |
