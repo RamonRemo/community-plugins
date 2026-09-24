@@ -161,8 +161,6 @@ so it is moved to a connected one, and goes back when its own output returns.
 `noctalia config validate` itself), and `noctalia msg desktop-widgets-toggle-edit`
 for the toolbar's move button. Nothing else.
 
-**Languages.** English and Portuguese (Brazil).
-
 **No network access.** Nothing is fetched or sent.
 
 **Font.** `PatrickHand-Regular.ttf` ships with the plugin and is the default.
